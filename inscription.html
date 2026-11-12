@@ -113,8 +113,7 @@
     </div>
 
     <div class="done" id="ok" hidden>
-      <h2>C'est confirmé.</h2>
-      <p>Bienvenue dans la bande. La prochaine newsletter arrive dans ta boîte, avant les réseaux.</p>
+      <p>La prochaine newsletter arrive dans ta boîte, avant les réseaux.</p>
     </div>
   </section>
 
@@ -130,7 +129,7 @@
       err = document.getElementById('err'), done = document.getElementById('done');
   if (/[?&]confirme=1/.test(location.search)) {
     f.hidden = true; document.getElementById('ok').hidden = false;
-    document.querySelector('h1').textContent = 'Bienvenue dans la bande';
+    document.querySelector('h1').textContent = "C'est confirmé. Bienvenue dans la bande.";
     document.querySelector('.kicker').textContent = 'Inscription confirmée';
     document.querySelector('.lead').hidden = true;
   }
