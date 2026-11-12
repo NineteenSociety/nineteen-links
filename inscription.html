@@ -111,6 +111,11 @@
       <h2>Presque fini.</h2>
       <p>Clique sur le lien qu'on vient de t'envoyer par e-mail pour confirmer ton inscription. Pense à jeter un œil dans tes spams.</p>
     </div>
+
+    <div class="done" id="ok" hidden>
+      <h2>C'est confirmé.</h2>
+      <p>Bienvenue dans la bande. La prochaine newsletter arrive dans ta boîte, avant les réseaux.</p>
+    </div>
   </section>
 
   <footer class="foot">
@@ -123,6 +128,12 @@
 (function () {
   var f = document.getElementById('f'), btn = document.getElementById('btn'),
       err = document.getElementById('err'), done = document.getElementById('done');
+  if (/[?&]confirme=1/.test(location.search)) {
+    f.hidden = true; document.getElementById('ok').hidden = false;
+    document.querySelector('h1').textContent = 'Bienvenue dans la bande';
+    document.querySelector('.kicker').textContent = 'Inscription confirmée';
+    document.querySelector('.lead').hidden = true;
+  }
   function fail(t) { err.textContent = t; err.hidden = false; btn.disabled = false; btn.textContent = "Je m'inscris"; }
   f.addEventListener('submit', function (e) {
     e.preventDefault();
