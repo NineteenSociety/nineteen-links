@@ -14,7 +14,13 @@
    recv / strokes = coups reçus, date 'AAAA-MM-JJ' et time 'HH:MM'.
    Tours : r = 'r16', 'qf', 'sf', 'f' ; from / to = dates du tour.
    Si ce fichier ne charge pas, le site affiche la copie de secours de tableau.js.
+
+   À PARTIR DE DÉCEMBRE 2026 : tableau en base, scores saisis par les joueurs dans
+   l'espace membres. Décommenter la ligne CUP_LIVE_SLUG ci-dessous avec l'identifiant
+   du tournoi (tableau de bord > Cup) : TABLEAU_OCT et CONSOLANTE_OCT sont alors ignorés.
    ===================================================================== */
+
+// var CUP_LIVE_SLUG = 'dec2026';
 
 var CUP_TEXTES = {
   fr: {
