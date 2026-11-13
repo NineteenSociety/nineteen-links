@@ -58,11 +58,11 @@ var TABLEAU_OCT = [
 var CONSOLANTE_OCT = [
   {r:'qf', from:'2026-11-01', to:'2026-11-06', m:[
     {a:p('Guillaume H.','+2,2',1), b:p('Antoine H.','16,2'), w:'a', s:'', recv:'b', strokes:14, date:'2026-11-06', time:'17:30'},
-    {a:p('Wouter L.','22'), b:p('Kevin A.','5',1), w:null, s:'', recv:'a', strokes:13, date:'2026-11-12', time:'18:00'},
+    {a:p('Wouter L.','22'), b:p('Kevin A.','5',1), w:'a', s:'', recv:'a', strokes:13, date:'2026-11-12', time:'18:00'},
     {a:p('Gauthier D.','13,2'), b:p('Serge L.','36'), w:null, s:'', recv:'b', strokes:17, date:null},
-    {a:p('Romain H.','27,7'), b:p('Gregory E.','4,6',1), w:null, s:'', recv:'a', strokes:17, date:'2026-11-12', time:'14:00'}
+    {a:p('Romain H.','27,7'), b:p('Gregory E.','4,6',1), w:'a', s:'', recv:'a', strokes:17, date:'2026-11-12', time:'14:00'}
   ]},
-  {r:'sf', from:'2026-11-07', to:'2026-11-15', m:[ {a:p('Guillaume H.','+2,2',1), b:TBD, w:null}, {a:TBD, b:TBD, w:null} ]},
+  {r:'sf', from:'2026-11-07', to:'2026-11-15', m:[ {a:p('Guillaume H.','+2,2',1), b:p('Wouter L.','22'), w:null, date:null}, {a:TBD, b:p('Romain H.','27,7'), w:null} ]},
   {r:'f', from:'2026-11-16', to:'2026-11-22', m:[ {a:TBD, b:TBD, w:null} ]}
 ];
 
