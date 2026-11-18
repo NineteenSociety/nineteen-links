@@ -58,7 +58,7 @@ var TABLEAU_OCT = [
     {a:p('Julien S.','16,2'), b:p('Vincent V.','21,5'), w:'a', s:'1 up', recv:'b', strokes:4},
     {a:p('Julie M.','7,6'), b:p('Thierry P.','24,3'), w:'a', s:'3&2', recv:'b', strokes:13}
   ]},
-  {r:'f', from:'2026-11-16', to:'2026-11-22', m:[ {a:p('Julien S.','16,2'), b:p('Julie M.','7,6'), w:null, date:'2026-11-18', time:'18:30'} ]}
+  {r:'f', from:'2026-11-16', to:'2026-11-22', m:[ {a:p('Julien S.','16,2'), b:p('Julie M.','7,6'), w:'b', s:'', date:'2026-11-18', time:'18:30'} ]}
 ];
 
 var CONSOLANTE_OCT = [
