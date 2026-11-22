@@ -20,20 +20,20 @@
    du tournoi (tableau de bord > Cup) : TABLEAU_OCT et CONSOLANTE_OCT sont alors ignorés.
    ===================================================================== */
 
-// var CUP_LIVE_SLUG = 'dec2026';
+var CUP_LIVE_SLUG = 'nov2026'; // tournoi de novembre en base (scores saisis dans l'espace membre)
 
 var CUP_TEXTES = {
   fr: {
     masquer: false,
-    label: "En cours · Tournoi d'octobre",
-    titre: "Le tableau d'octobre.",
-    lead: "16 joueurs, tous en net, sur Augusta Municipal. 4 têtes de série (★). Les coups reçus correspondent aux 3/4 de la différence de handicap. Finale entre le 16 et le 22 novembre."
+    label: "En cours · Tournoi de novembre",
+    titre: "Le tableau de novembre.",
+    lead: "16 joueurs, tous en net, sur Marco Simone. Match play quand les deux joueurs ont un handicap TrackMan, stroke play net sinon (à égalité, le plus petit handicap gagne). Coups calculés par le simulateur. Finale entre le 14 et le 20 décembre."
   },
   en: {
     masquer: false,
-    label: "In progress · October tournament",
-    titre: "The October draw.",
-    lead: "16 players, all net, on Augusta Municipal. 4 seeds (★). Strokes received are 3/4 of the handicap difference. Final between 16 and 22 November."
+    label: "In progress · November tournament",
+    titre: "The November draw.",
+    lead: "16 players, all net, on Marco Simone. Match play when both players have a TrackMan handicap, net stroke play otherwise (on a tie, the lower handicap wins). Strokes set by the simulator. Final between 14 and 20 December."
   }
 };
 
