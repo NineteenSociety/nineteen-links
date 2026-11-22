@@ -27,13 +27,13 @@ var CUP_TEXTES = {
     masquer: false,
     label: "En cours · Tournoi de novembre",
     titre: "Le tableau de novembre.",
-    lead: "16 joueurs, tous en net, sur Marco Simone. Match play quand les deux joueurs ont un handicap TrackMan, stroke play net sinon (à égalité, le plus petit handicap gagne). Coups calculés par le simulateur. Finale entre le 14 et le 20 décembre."
+    lead: "16 joueurs, tous en net, sur Marco Simone. 4 têtes de série (★). Match play quand les deux joueurs ont un handicap TrackMan, stroke play net sinon (à égalité, le plus petit handicap gagne). Coups calculés par le simulateur. Finale entre le 14 et le 20 décembre."
   },
   en: {
     masquer: false,
     label: "In progress · November tournament",
     titre: "The November draw.",
-    lead: "16 players, all net, on Marco Simone. Match play when both players have a TrackMan handicap, net stroke play otherwise (on a tie, the lower handicap wins). Strokes set by the simulator. Final between 14 and 20 December."
+    lead: "16 players, all net, on Marco Simone. 4 seeds (★). Match play when both players have a TrackMan handicap, net stroke play otherwise (on a tie, the lower handicap wins). Strokes set by the simulator. Final between 14 and 20 December."
   }
 };
 
